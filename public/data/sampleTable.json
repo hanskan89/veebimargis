@@ -1,0 +1,24 @@
+{
+	  "rows": [
+		{
+			 "cell11":"#",
+			 "cell12":"Veeb",
+			 "cell13":"CPU usage"
+		},
+		{
+			 "cell21":"1",
+			 "cell22":"Postimees.ee",
+			 "cell23":"33.1"
+		},
+		{
+			 "cell31":"2",
+			 "cell32":"Delfi.ee",
+			 "cell33":"18.1"
+		},
+		{
+			 "cell31":"3",
+			 "cell32":"Geenius.ee",
+			 "cell33":"16.8"
+		}
+	  ]
+}
