@@ -1,0 +1,17 @@
+{{ $file := .Get 0 }}
+{{ $datasource := getJSON $file }}
+
+
+{{ range $table := $datasource }}
+	<table class="table table-striped">
+	{{ range $row := $table }}
+		<tr>
+		{{ range $cellname, $cellcontent := $row }}
+			<td>
+			{{ $cellcontent }}
+			</td>
+		{{ end }}
+		</tr>
+	{{ end }}
+	</table>
+{{ end }}

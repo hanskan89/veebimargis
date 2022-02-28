@@ -1,0 +1,8 @@
+{{ $title := .Get "title" }}
+<div class="card" style="width: 18rem;">
+	<h5 class="card-header mb-0" >{{ $title }}</h5>
+	<div class="card-body">
+		<p class="card-text">{{ .Inner }}</p>
+	</div>
+</div>
+	
