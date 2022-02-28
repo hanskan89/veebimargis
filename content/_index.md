@@ -37,8 +37,3 @@ Viimane uuendus: 22.02.2022.
 {{< badge text="halb" color="red" >}}
 {{< badge text="hea" color="green" >}}
 {{< badge text="uus info" >}}
-
-<span class="badge rounded-pill bg-secondary">Secondary</span>
-<span class="badge rounded-pill bg-success">Success</span>
-<span class="badge rounded-pill bg-danger">Danger</span>
-<span class="badge rounded-pill bg-warning text-dark">Warning</span>
