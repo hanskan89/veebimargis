@@ -1,4 +1,5 @@
-baseURL = 'https://hanskan89.github.io/veebimargis/'
+baseURL = 'http://example.org/'
+#baseURL = 'https://hanskan89.github.io/veebimargis/'
 languageCode = 'et-ee'
 title = 'Veebimärgis'
 themesDir = "themes"

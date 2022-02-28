@@ -7661,14 +7661,15 @@ p {
       .sub-footer .sub-footer-inner ul li {
         list-style: none;
         display: block;
-        color: #aaa;
+        color: #333;
         font-size: 0.9rem;
-        line-height: 1.8; }
+        line-height: 1.8;
+        font-weight: bold; }
         .sub-footer .sub-footer-inner ul li strong {
           font-weight: bold;
           color: #ffffff; }
         .sub-footer .sub-footer-inner ul li a {
-          color: #999;
+          color: #333;
           text-decoration: none; }
           .sub-footer .sub-footer-inner ul li a:hover {
             text-decoration: underline; }
@@ -7678,6 +7679,8 @@ p {
           padding: 10px 0 10px 8px;
           font-weight: bold;
           color: #ffffff; }
+        .sub-footer .sub-footer-inner ul li.zerostatic a {
+          color: #333; }
       @media (min-width: 576px) {
         .sub-footer .sub-footer-inner ul li {
           display: inline-block;

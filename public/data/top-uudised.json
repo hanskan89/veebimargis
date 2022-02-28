@@ -1,39 +1,126 @@
 {
 	  "rows": [
 		{
-			 "cell11":"#",
-			 "cell12":"Veeb",
-			 "cell13":"CPU kasutus"
+			"cells": [
+				 {
+					 "cellcontent": "#",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "Veeb",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "CPU kasutus",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
+
 		{
-			 "cell21":"1",
-			 "cell22":"postimees.ee",
-			 "cell23":"xx.x <span class=\"badge rounded-pill bg-danger\">halb</span>"
+			"cells": [
+				 {
+					 "cellcontent": "1",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "Postimees",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "red"
+				   } 
+			 ]
 		},
+
 		{
-			 "cell31":"2",
-			 "cell32":"delfi.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "2",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "delfi.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "orange"
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"3",
-			 "cell32":"ohtuleht.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "3",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "err.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"4",
-			 "cell32":"tv3.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "4",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "ohtuleht.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "new"
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"5",
-			 "cell32":"err.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "5",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "tv3.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"6",
-			 "cell32":"geenius.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "6",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "geenius.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		}
+
+
+		
 	  ]
 }

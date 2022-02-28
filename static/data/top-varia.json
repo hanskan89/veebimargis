@@ -1,64 +1,127 @@
 {
 	  "rows": [
 		{
-			 "cell11":"#",
-			 "cell12":"Veeb",
-			 "cell13":"CPU kasutus"
+			"cells": [
+				 {
+					 "cellcontent": "#",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "Veeb",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "CPU kasutus",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
+
 		{
-			 "cell21":"1",
-			 "cell22":"kv.ee",
-			 "cell23":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "1",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "kv.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "red"
+				   } 
+			 ]
 		},
+
 		{
-			 "cell31":"2",
-			 "cell32":"osta.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "2",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "osta.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "orange"
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"3",
-			 "cell32":"mail.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "3",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "mail.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"4",
-			 "cell32":"liigume.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "4",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "liigume.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": "new"
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"5",
-			 "cell32":"okidoki.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "5",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "okidoki.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		},
+		
 		{
-			 "cell31":"6",
-			 "cell32":"nami-nami.ee",
-			 "cell33":"xx.x"
-		},
-		{
-			 "cell31":"7",
-			 "cell32":"upload.ee",
-			 "cell33":"xx.x"
-		},
-		{
-			 "cell31":"8",
-			 "cell32":"tallinn.ee",
-			 "cell33":"xx.x"
-		},
-		{
-			 "cell31":"9",
-			 "cell32":"iha.ee",
-			 "cell33":"xx.x"
-		},
-		{
-			 "cell31":"10",
-			 "cell32":"hinnavaatlus.ee",
-			 "cell33":"xx.x"
-		},
-		{
-			 "cell31":"11",
-			 "cell32":"kalkulaator.ee",
-			 "cell33":"xx.x"
+			"cells": [
+				 {
+					 "cellcontent": "6",
+					 "badge": ""
+				 },
+				 {
+					  "cellcontent": "iha.ee",
+					  "badge": ""
+				  },
+				  {
+					   "cellcontent": "xx.x",
+					   "badge": ""
+				   } 
+			 ]
 		}
+
+
+		
 	  ]
 }
+

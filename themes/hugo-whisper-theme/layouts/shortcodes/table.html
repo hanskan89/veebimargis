@@ -1,17 +1,29 @@
 {{ $file := .Get 0 }}
 {{ $datasource := getJSON $file }}
 
-
 {{ range $table := $datasource }}
 	<table class="table table-striped">
 	{{ range $row := $table }}
 		<tr>
-		{{ range $cellname, $cellcontent := $row }}
+		{{ range $cellelements := $row.cells }}
 			<td>
-			{{ $cellcontent }}
+				{{  $cellelements.cellcontent}}
+				{{ if eq $cellelements.badge "red"}}
+					<span class="badge rounded-pill bg-danger text-light">halb</span> 
+				{{ end }}
+				{{ if eq $cellelements.badge "orange"}}
+					<span class="badge rounded-pill bg-warning">kehv</span>
+				{{ end }}
+				{{ if eq $cellelements.badge "green" }}
+					<span class="badge rounded-pill bg-success text-light">hea</span>
+				{{ end }}
+				{{ if eq $cellelements.badge "new" }}
+					<span class="badge rounded-pill bg-dark text-light">uus</span>
+				{{ end }}
 			</td>
 		{{ end }}
 		</tr>
+		
 	{{ end }}
 	</table>
 {{ end }}

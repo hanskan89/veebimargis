@@ -20,16 +20,16 @@
       li {
         list-style: none;
         display: block;
-        color: #333;
+        color: #aaa;
         font-size: 0.9rem;
         line-height: 1.8;
-        font-weight: bold;
+        //font-weight: bold;
         strong {
           font-weight: bold;
           color: #ffffff;
         }
         a {
-          color: #333;
+          color: #999;
           text-decoration: none;
           &:hover {
             text-decoration: underline;
@@ -42,11 +42,7 @@
           font-weight: bold;
           color: #ffffff;
         }
-        &.zerostatic {
-          a {
-            color: #333;
-          }
-        }
+
       }
       @include media-breakpoint-up(sm) {
         li {
