@@ -1,0 +1,54 @@
+baseURL = 'http://example.org/'
+languageCode = 'et-ee'
+title = 'Veebimärgis'
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+#ignoreErrors = ["error-remote-getjson"]
+
+[module]
+  [module.hugoVersion]
+	extended = true
+	min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+#[[menu.main]]
+#	name = "Tulemused"
+#	url = "/"
+#	weight = 1
+
+#[[menu.main]]
+#	name = "Metoodika"
+#	url = "/docs/"
+#	weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Call to action'
+  homepage_intro = 'Veebimärgis.'
+#  homepage_image = '/images/terminal.gif'
+
+  ## Datafile
+  
+  datafile = '/data/sampleTable.json'
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+	meta_description = "Veebimärgis hindab Eesti levinumate veebilehtede energiakasutuse jalajälge."
+	meta_og_title = "Veebimärgis"
+	meta_og_type = "website"
+	meta_og_url = "/"
+	meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+	meta_og_description = "Veebimärgis hindab Eesti levinumate veebilehtede energiakasutuse jalajälge."
+	# meta_twitter_card = "summary"
+	# meta_twitter_site = "@zerostaticio"
+	# meta_twitter_creator = "@zerostaticio"
+
+  [params.logo]
+	  mobile = "/images/logo-mobile.svg"
+	  standard  = "/images/logo.svg"
