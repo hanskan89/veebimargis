@@ -1,0 +1,33 @@
+.page-home {
+  
+  text-align: left;
+  .title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: $font-family-base;
+  }
+  div.content {
+    margin: 0 auto;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    @include media-breakpoint-up(md) {
+      width: 80%;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 60%;
+    }
+    table,td {
+      font-size: 1.0rem;
+    }
+  }
+  .terminal {
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: -200px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
