@@ -37,3 +37,5 @@ Viimane uuendus: 22.02.2022.
 {{< badge text="halb" color="red" >}}
 {{< badge text="hea" color="green" >}}
 {{< badge text="uus info" >}}
+
+Test
