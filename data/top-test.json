@@ -25,7 +25,7 @@
 					 "badge": ""
 				 },
 				 {
-					  "cellcontent": "kv.ee",
+					  "cellcontent": "Postimees",
 					  "badge": ""
 				  },
 				  {
@@ -42,7 +42,7 @@
 					 "badge": ""
 				 },
 				 {
-					  "cellcontent": "osta.ee",
+					  "cellcontent": "Delfi",
 					  "badge": ""
 				  },
 				  {
@@ -59,7 +59,7 @@
 					 "badge": ""
 				 },
 				 {
-					  "cellcontent": "mail.ee",
+					  "cellcontent": "Err",
 					  "badge": ""
 				  },
 				  {
@@ -68,60 +68,6 @@
 				   } 
 			 ]
 		},
-		
-		{
-			"cells": [
-				 {
-					 "cellcontent": "4",
-					 "badge": ""
-				 },
-				 {
-					  "cellcontent": "liigume.ee",
-					  "badge": ""
-				  },
-				  {
-					   "cellcontent": "xx.x",
-					   "badge": "new"
-				   } 
-			 ]
-		},
-		
-		{
-			"cells": [
-				 {
-					 "cellcontent": "5",
-					 "badge": ""
-				 },
-				 {
-					  "cellcontent": "okidoki.ee",
-					  "badge": ""
-				  },
-				  {
-					   "cellcontent": "xx.x",
-					   "badge": ""
-				   } 
-			 ]
-		},
-		
-		{
-			"cells": [
-				 {
-					 "cellcontent": "6",
-					 "badge": ""
-				 },
-				 {
-					  "cellcontent": "iha.ee",
-					  "badge": ""
-				  },
-				  {
-					   "cellcontent": "xx.x",
-					   "badge": ""
-				   } 
-			 ]
-		}
-
-
 		
 	  ]
 }
-
